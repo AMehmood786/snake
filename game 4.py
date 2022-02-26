@@ -1,0 +1,1 @@
+https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiZwdqz_5j2AhUPme0KHUvnBb8YABAAGgJkZw&ae=2&ohost=www.google.com&cid=CAESWOD2tDufUQQj1FdAcph7UM8QMXiSTVZ6wBCheDxhO5gjHOl5RMtxr5TmwyoVN8EZn0WZIFLgCxOym1oi6PYcIX2HVm0pLYHy9-6G8BNI1uasV5DgLiidqr8&sig=AOD64_21RWSNYprAzrhyS501MHJoOCOC5Q&q&adurl&ved=2ahUKEwiGydCz_5j2AhWUX8AKHSN1DkYQ0Qx6BAgCEAE
