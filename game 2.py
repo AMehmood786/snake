@@ -60,7 +60,7 @@ def move_snake():
         screen.update()
  
         turtle.ontimer(move_snake, delay)
- 
+
 def food_collision():
     global food_position
     if get_distance(snake[-1], food_position) < 20:
@@ -103,7 +103,7 @@ def go_left():
 screen = turtle.Screen()
 screen.setup(w, h)
 screen.title("Snake")
-screen.bgcolor("blue")
+screen.bgcolor("brown")
 screen.setup(500, 500)
 screen.tracer(0)
  
