@@ -1,0 +1,39 @@
+def food_collision():
+    global food_position
+    if get_distance(snake[-1], food_position) < 20:
+        food_position = get_random_food_position()
+        food.goto(food_position)
+        return True
+    return False
+ 
+def get_random_food_position():
+    x = random.randint(- w / 2 + food_size, w / 2 - food_size)
+    y = random.randint(- h / 2 + food_size, h / 2 - food_size)
+    return (x, y)
+ 
+def get_distance(pos1, pos2):
+    x1, y1 = pos1
+    x2, y2 = pos2
+    distance = ((y2 - y1) ** 2 + (x2 - x1) ** 2) ** 0.5
+    return distance
+def go_up():
+    global snake_dir
+    if snake_dir != "down":
+        snake_dir = "up"
+ 
+def go_right():
+    global snake_dir
+    if snake_dir != "left":
+        snake_dir = "right"
+ 
+def go_down():
+    global snake_dir
+    if snake_dir!= "up":
+        snake_dir = "down"
+ 
+def go_left():
+    global snake_dir
+    if snake_dir != "right":
+        snake_dir = "left"
+ 
+ 
