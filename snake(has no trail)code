@@ -1,0 +1,2 @@
+pen = turtle.Turtle("square")
+pen.penup()
